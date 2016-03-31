@@ -1,6 +1,6 @@
 import { Component } from 'angular2/core';
 
-import SortingComponent from './sorting.component';
+import SortingComponent from '../sorting/sorting.component';
 const template = require('./app.component.jade');
 const style = require('./app.component.styl');
 
@@ -10,9 +10,6 @@ const style = require('./app.component.styl');
     styles: [style],
     template,
 })
-class AppComponent {
-  title: string = 'ng2-webpack example';
-  name: string = '';
-}
+class AppComponent {}
 
 export default AppComponent;
